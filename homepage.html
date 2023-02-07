@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN OPTIONS</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Century Gothic;
+		}
+		body{
+			background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(plane.jpg);
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+		ul{
+			float: right;
+			list-style-type: none;
+			margin-top: 25px;
+		}
+		ul li{
+			display: inline-block;
+		}
+		ul li a{
+			text-decoration: none;
+			color: #fff;
+			padding: 5px 20px;
+			border: 1px solid #fff;
+			transition: 0.6s ease;
+		}
+		ul li a:hover{
+			background-color: #fff;
+			color: #000;
+		}
+		ul li.active a{
+			background-color: #fff;
+			color: #000;
+		}
+		.title{
+			position: absolute;
+			top: 50%;
+			left: 48%;
+			transform: translate(-50%,-50%);	
+
+		}
+		.title1{
+			position: absolute;
+			top: 20%;
+			left: 48%;
+			transform: translate(-50%,-50%);	
+			
+		}
+		.title1 h1{
+			color: royalblue;
+			font-size: 60px;
+
+		}
+		.title h2{
+			color: #fff;
+			font-size: 50px;
+		}
+		.title h3{
+			color: #fff;
+			font-size: 20px;
+		}
+		.choices{
+			position: absolute;
+			top: 60%;
+			left: 48%;
+			transform: translate(-50%,-50%);
+		}
+		.a{
+			border: 2px solid #fff;
+			padding: 10px 30px;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.6s ease;
+		}
+		.b{
+			border: 2px solid #fff;
+			padding: 10px 30px;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.6s ease;
+		}
+		.a:hover{
+			background-color: #fff;
+			color: #000;
+		}
+		.b:hover{
+			background-color: #fff;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main">
+			<ul>
+				<li><a href="#">Air Ticket Booking System</a></li>
+				<li class="active"><a href="#">Home</a></li>
+			</ul>
+		</div>
+			<div class="title1">
+			<h1>WELCOME TO VSC AIRLINES</h1>
+			<h3 align="center">Online Air Ticket Booking System</h3>
+		</div>
+		<div class="title">
+			<h2>LOGIN OPTIONS</h2>
+		</div>
+		<div class="choices">
+			<a href="adminlogin.php" class="a">Admin Login</a>
+			<a href="passengerchoice.html" class="b">Bookings</a>
+		</div>
+	</header>
+</body>
+</html>
